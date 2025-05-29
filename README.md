@@ -27,3 +27,12 @@ React的进一步封装
 
 create-umi xxx脚手架
 
+## Next
+
+React的进一步封装
+
+主要是便于区分客户端渲染(CSR)和服务端渲染(SSR)
+
+SEO友好特性
+
+简化路由配置，类似函数式
