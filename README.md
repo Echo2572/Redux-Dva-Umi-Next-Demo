@@ -19,3 +19,11 @@ connect连接组件与状态管理系统
 
 区分同步reducers和异步effects操作
 
+## Umi
+
+React的进一步封装
+
+简化路由配置、状态管理等
+
+create-umi xxx脚手架
+

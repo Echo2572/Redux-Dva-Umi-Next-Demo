@@ -1,0 +1,92 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+
+    .header {
+        text-align: center;
+        margin-bottom: 40px;
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #666;
+        }
+    }
+
+    .main {
+        .article {
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+
+            .title {
+                font-size: 24px;
+                margin-bottom: 15px;
+
+                a {
+                    color: #333;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: #007bff;
+                    }
+                }
+            }
+
+            .metadata {
+                display: flex;
+                align-items: center;
+                margin-bottom: 15px;
+
+                .avatar {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    margin-right: 10px;
+                }
+
+                .author {
+                    font-weight: bold;
+                }
+
+                .date {
+                    color: #666;
+                    margin-left: 10px;
+                }
+            }
+
+            .excerpt {
+                line-height: 1.6;
+                margin-bottom: 15px;
+            }
+
+            .tags {
+                margin-bottom: 15px;
+
+                .tag {
+                    display: inline-block;
+                    background-color: #f0f0f0;
+                    color: #666;
+                    padding: 3px 8px;
+                    border-radius: 3px;
+                    font-size: 14px;
+                    margin-right: 8px;
+                    margin-bottom: 8px;
+                }
+            }
+
+            .stats {
+                color: #666;
+                font-size: 14px;
+
+                span {
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+}
